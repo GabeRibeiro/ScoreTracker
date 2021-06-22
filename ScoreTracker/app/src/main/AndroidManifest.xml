@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.scoretracker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ScoreTracker">
+        <activity android:name=".defaults.DefaultMarcadoresActivity" android:parentActivityName=".Futebol_Ligas"></activity>
+        <activity android:name=".defaults.DefaultClassifActivity" android:parentActivityName=".Futebol_Ligas"/>
+        <activity android:name=".defaults.DefaultJogosActivity" android:parentActivityName=".Futebol_Ligas"/>
+        <activity android:name=".LigaNos_Marcadores" android:parentActivityName=".Futebol_Ligas"/>
+        <activity android:name=".Game1" android:parentActivityName=".LigaNos_Jogos"/>
+        <activity android:name=".LigaNos_Jogos" android:parentActivityName=".Futebol_Ligas"/>
+        <activity android:name=".Futebol_Ligas" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".LigaNos_Classific" android:parentActivityName=".Futebol_Ligas"/>
+        <activity android:name=".EquipaSporting" android:parentActivityName=".LigaNos_Classific"/>
+        <activity android:name=".Favoritos" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

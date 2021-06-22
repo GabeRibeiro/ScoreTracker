@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="15.05                               Benfica 4:3 Sporting"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView104" />
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="19.05                             Sporting 5:1 Marítimo"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView94" />
+
+    <TextView
+        android:id="@+id/textView94"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#D6D2D2"
+        android:gravity="center"
+        android:text="PRIMEIRA LIGA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="11.05                             Sporting 1:0 Boavista"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView111" />
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="05.05                               Rio Ave 0:2 Sporting"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView100" />
+
+    <TextView
+        android:id="@+id/textView126"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="01.05                             Sporting 0:2 Nacional"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView116" />
+</androidx.constraintlayout.widget.ConstraintLayout>

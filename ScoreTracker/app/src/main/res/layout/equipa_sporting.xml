@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView125"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="19 Tiago Tomás"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView124" />
+
+    <TextView
+        android:id="@+id/textView124"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="  7 Tabata"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView123" />
+
+    <TextView
+        android:id="@+id/textView122"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="21 Paulinho"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView121" />
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="20 Gonzalo Plata"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView122" />
+
+    <TextView
+        android:id="@+id/textView117"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#D6D2D2"
+        android:gravity="center"
+        android:text="TREINADOR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#D6D2D2"
+        android:gravity="center"
+        android:text="AVANÇADOS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView114" />
+
+    <TextView
+        android:id="@+id/textView114"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="11 Nuno Santos"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView113" />
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="28 Pedro Gonçalves"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView112" />
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="  6 João Palhinha"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView110" />
+
+    <TextView
+        android:id="@+id/textView108"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="84 Dário Essugo"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView107" />
+
+    <TextView
+        android:id="@+id/textView109"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="17 João Mário"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView108" />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="  8 Matheus Nunes"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView109" />
+
+    <TextView
+        android:id="@+id/textView107"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="82 Tomás Silva Costa"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView106" />
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#D6D2D2"
+        android:gravity="center"
+        android:text="MÉDIOS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView103" />
+
+    <TextView
+        android:id="@+id/textView95"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="52 Gonçalo Inácio"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView93" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="  4 Sebastian Coates"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView90" />
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="  5 Nuno Mendes"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView95" />
+
+    <TextView
+        android:id="@+id/textView96"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="13 Neto"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView92" />
+
+    <TextView
+        android:id="@+id/textView97"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="86 Bruno Paz"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView96" />
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="27 João Pereira"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView97" />
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="24 Pedro Porro"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView98" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="72 Eduardo Quaresma"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView99" />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="  2 Matheus Reis"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="44 João Silva"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView102" />
+
+    <TextView
+        android:id="@+id/textView93"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="44 Zouhair Feddal"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView91" />
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#D6D2D2"
+        android:gravity="center"
+        android:text="DEFESAS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView88" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#D6D2D2"
+        android:gravity="center"
+        android:text="GUARDA-REDES"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView118" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="  1 António Adan"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView71" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="22 Luís Maximiano"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView73" />
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="81 André Paulo"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView87" />
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="55 Vitorino Antunes"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView89" />
+
+    <TextView
+        android:id="@+id/textView106"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="68 Daniel Bragança"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView105" />
+
+    <TextView
+        android:id="@+id/textView118"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Rúben Amorim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView117"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="77 Jovane Cabral"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView115" />
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="96 Joelson Fernandes"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView119" />
+
+    <TextView
+        android:id="@+id/textView121"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="71 Flávio Nazinho"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView120" />
+</androidx.constraintlayout.widget.ConstraintLayout>
